@@ -1,3 +1,6 @@
+package interfaces;
+
+import processing.DImage;
 import processing.core.PApplet;
 
 public interface Drawable {

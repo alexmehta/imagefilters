@@ -1,3 +1,7 @@
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
 import processing.core.PApplet;
 
 public class BasicColorFilter implements PixelFilter {

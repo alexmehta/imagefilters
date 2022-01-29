@@ -1,3 +1,5 @@
+package processing;
+
 import processing.core.PImage;
 // TODO: comment this class
 
@@ -477,7 +479,7 @@ public class DImage {
 
     public int getHeight() {
         if (this.img == null) {
-            System.err.println("No image defined for DImage");
+            System.err.println("No image defined for processing.DImage");
             return 0;
         }
 
@@ -486,7 +488,7 @@ public class DImage {
 
     public int getWidth() {
         if (this.img == null) {
-            System.err.println("No image defined for DImage");
+            System.err.println("No image defined for processing.DImage");
             return 0;
         }
 

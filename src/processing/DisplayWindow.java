@@ -1,3 +1,9 @@
+package processing;
+
+import interfaces.Drawable;
+import interfaces.Interactive;
+import interfaces.PixelFilter;
+import processing.DImage;
 import processing.core.PApplet;
 import processing.core.PImage;
 import processing.video.Capture;
@@ -288,6 +294,7 @@ public class DisplayWindow extends PApplet {
 
     private PixelFilter loadNewFilter() {
         String name = JOptionPane.showInputDialog("Type the name of your processImage class");
+        name = "filters." + name;
         PixelFilter f = null;
         try {
             Class<PixelFilter> c = (Class<PixelFilter>) Class.forName(name);
@@ -302,7 +309,7 @@ public class DisplayWindow extends PApplet {
     }
 
     public static void showFor(String filePath) {
-        PApplet.main("DisplayWindow", new String[]{filePath});
+        PApplet.main("processing.DisplayWindow", new String[]{filePath});
     }
 
     public static void getInputInteractively() {

@@ -1,9 +1,14 @@
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
+
 import javax.swing.*;
 import java.util.Arrays;
 
 public class Border implements PixelFilter {
     public Border(){
-        this.border= Integer.parseInt(JOptionPane.showInputDialog("Border Size"));
+        this.border= Integer.parseInt(JOptionPane.showInputDialog("filters.Border Size"));
     }
     short color = 0;
     int border= 0;

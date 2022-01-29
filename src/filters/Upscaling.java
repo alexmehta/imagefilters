@@ -1,6 +1,11 @@
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
+
 import java.util.Arrays;
 
-public class Upscaling implements PixelFilter{
+public class Upscaling implements PixelFilter {
 
     @Override
     public DImage processImage(DImage img) {

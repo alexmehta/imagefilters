@@ -1,6 +1,11 @@
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
+
 import javax.swing.*;
 
-public class ColorMasking implements PixelFilter{
+public class ColorMasking implements PixelFilter {
     final double threshold =44.1672956;
     int r;
     int g;

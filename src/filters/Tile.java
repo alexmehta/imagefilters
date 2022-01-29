@@ -1,3 +1,8 @@
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
+
 public class Tile implements PixelFilter {
     @Override
     public DImage processImage(DImage img) {

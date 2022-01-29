@@ -1,3 +1,8 @@
+package filters;
+
+import interfaces.Drawable;
+import interfaces.PixelFilter;
+import processing.DImage;
 import processing.core.PApplet;
 
 public class DrawingFilter implements PixelFilter, Drawable {

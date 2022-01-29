@@ -1,7 +1,9 @@
-import processing.core.PApplet;
+package filters;
+
+import interfaces.PixelFilter;
+import processing.DImage;
 
 import javax.swing.*;
-
 public class Monochrome implements PixelFilter {
     public Monochrome(){
         this.threshold = Integer.parseInt(JOptionPane.showInputDialog("Threshold"));

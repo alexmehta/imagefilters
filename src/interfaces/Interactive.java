@@ -1,3 +1,7 @@
+package interfaces;
+
+import processing.DImage;
+
 public interface Interactive {
     /***
      * Action you wish to perform when the mouse is clicked.  For example, store the color of the pixel where
