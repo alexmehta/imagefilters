@@ -313,7 +313,7 @@ public class DisplayWindow extends PApplet {
     }
 
     public static void getInputInteractively() {
-        PApplet.main("DisplayWindow", new String[]{});
+        PApplet.main("processing.DisplayWindow", new String[]{});
     }
 }
 
